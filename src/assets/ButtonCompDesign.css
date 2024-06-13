@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.btn-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-heading{
+    margin: 0 0 10px 0;
+    font-family: Ubuntu Mono;
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.primary{
+    width: 81px;
+    height: 36px;
+    gap: 0px;
+    border:none;
+    border-radius: 6px;
+    background-color:#3D5AFE;
+    font-family: Noto Sans JP;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+}
