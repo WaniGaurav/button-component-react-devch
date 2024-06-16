@@ -21,8 +21,34 @@
     border:none;
     border-radius: 6px;
     background-color:#3D5AFE;
+    outline-width: 0;
     font-family: Noto Sans JP;
     font-size: 14px;
     font-weight: 500;
     color: #ffffff;
+    cursor: pointer;
+}
+.graybtn{
+    color: #3F3F3F;
+    background-color: #E0E0E0;
+}
+.graybtn:is(:hover,:focus){
+    outline-width: 0;
+    background-color: #AEAEAE;
+}
+.outline{
+    color: #3D5AFE;
+    background-color: #ffffff;
+    border: 1px solid #3D5AFE
+}
+.outline:is(:hover,:focus){
+    background-color:#2962FF1A;
+}
+.text{
+    color: #3D5AFE;
+    background-color: #ffffff;
+}
+.text:is(:hover,:focus){
+    outline-width: 0;
+    background-color:#2962FF1A;
 }

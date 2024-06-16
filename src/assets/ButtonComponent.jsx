@@ -6,7 +6,7 @@ const ButtonComponent = (desc) => {
     <>
       <div className="btn-info">
         <span className="btn-heading">{desc.heading}</span>
-        <button type="submit" className="primary">Default</button>
+        <button type={desc.type?`${desc.type}`:"submit"} className={`primary ${desc.class}`}>Default</button>
       </div>
     </>
   );
