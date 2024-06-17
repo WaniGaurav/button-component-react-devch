@@ -52,3 +52,11 @@
     outline-width: 0;
     background-color:#2962FF1A;
 }
+.disabled{
+    cursor: not-allowed;
+    color:#9E9E9E;
+    background-color: #E0E0E0;
+}
+.disabled:is(:hover,:focus){
+    background-color: #ffffff;
+}

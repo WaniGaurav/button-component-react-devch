@@ -1,4 +1,5 @@
-.flex-group{
+.grid-group{
     display: grid;
     justify-content: center;
+    gap:2rem;
 }
