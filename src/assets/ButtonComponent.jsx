@@ -10,10 +10,10 @@ export const ButtonComponent = (desc) => {
   }
   return (
     <>
-      <div className="btn-info">
+      <div className="btn-info btn-width">
         <span className={`btn-heading ${desc.spanClass}`}>{desc.heading}</span>
         <button disabled={desc.disabled} type={desc.type} className={`primary${classes}`}>
-          Default
+          {desc.btntxt}
         </button>
       </div>
     </>
@@ -33,7 +33,7 @@ export const ButtonComponentIcon = (desc) =>{
         <span className={`btn-heading ${desc.spanClass}`}>{desc.heading}</span>
         <button disabled={desc.disabled} type={desc.type} className={`primary btnIcon${classes}`}>
           <img className='cartImg' src={CartSvg} alt="shopping cart image"/>
-          Default
+          {desc.btntxt}
         </button>
       </div>
     </>

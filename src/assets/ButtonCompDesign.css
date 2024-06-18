@@ -5,7 +5,9 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
+.btn-width{
+    width: 14rem;
+}
 .btn-heading{
     margin: 0 0 10px 0;
     width: 280px;
@@ -32,17 +34,23 @@
     color: #ffffff;
     cursor: pointer;
 }
+.bg-secondary{
+    width: 12rem;
+    background-color: #2962FF;
+}
 .column6{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5rem;
+    display: flex;
+    gap: 7rem;
+}
+.column7{
+    display: flex;
 }
 .graybtn{
     color: #3F3F3F;
     background-color: #E0E0E0;
 }
 .graybtn:is(:hover,:focus){
-    outline-width: 0;
+    outline: 0;
     background-color: #AEAEAE;
 }
 .outline{
@@ -51,6 +59,7 @@
     border: 1px solid #3D5AFE
 }
 .outline:is(:hover,:focus){
+    outline: 0;
     background-color:#2962FF1A;
 }
 .text{
@@ -58,7 +67,7 @@
     background-color: #ffffff;
 }
 .text:is(:hover,:focus){
-    outline-width: 0;
+    outline: 0;
     background-color:#2962FF1A;
 }
 .disabled{
@@ -67,7 +76,8 @@
     background-color: #E0E0E0;
 }
 .disabled:is(:hover,:focus){
-    background-color: #ffffff;
+    outline: 0;
+    background-color: #fff;
 }
 .btnIcon{
     display: flex;
@@ -76,7 +86,6 @@
     gap: 8px;
     width: 105px;
     height: 36px;
-    background-color: #2962FF;
 }
 .btnIconLeft{
     flex-direction: row;
@@ -88,4 +97,39 @@
     width: 18px;
     height: 16px;
     color:#FFFFFF;
+}
+.btnsm{
+    width: 73px;
+    height: 32px;    
+}
+.btnmd{
+    width: 81px;
+    height: 36px;    
+}
+.btnlg{
+    width: 93px;
+    height: 42px;    
+}
+.btn-primary{
+    background-color: #2962FF;
+}
+.btn-primary:is(:hover, :focus){
+    outline: 0;
+    background-color: #0039CB;
+}
+.btn-secondary{
+    background-color: #455A64;
+    width: 104px;
+    height: 36px;    
+}
+.btn-secondary:is(:hover, :focus){
+    outline: 0;
+    background-color: #1C313A;
+}
+.btn-danger{
+    background-color: #D32F2F;
+}
+.btn-danger:is(:hover, :focus){
+    outline: 0;
+    background-color: #9A0007;
 }
