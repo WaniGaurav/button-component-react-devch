@@ -1,7 +1,7 @@
 import './ButtonCompDesign.css'
 import CartSvg from './images/shopping_cart.svg'
 
-const ButtonComponent = (desc) => {
+export const ButtonComponent = (desc) => {
   let classes = ' '
   if (desc.class) {
     classes+=desc.class;
@@ -11,9 +11,8 @@ const ButtonComponent = (desc) => {
   return (
     <>
       <div className="btn-info">
-        <span className="btn-heading">{desc.heading}</span>
+        <span className={`btn-heading ${desc.spanClass}`}>{desc.heading}</span>
         <button disabled={desc.disabled} type={desc.type} className={`primary${classes}`}>
-          <img src={CartSvg} alt="shopping cart image"/>
           Default
         </button>
       </div>
@@ -21,4 +20,23 @@ const ButtonComponent = (desc) => {
   );
 }
 
-export default ButtonComponent
+export const ButtonComponentIcon = (desc) =>{
+  let classes = ' '
+  if (desc.class) {
+    classes+=desc.class;
+  } else {
+    classes='';
+  }
+  return (
+    <>
+      <div className="btn-info">
+        <span className={`btn-heading ${desc.spanClass}`}>{desc.heading}</span>
+        <button disabled={desc.disabled} type={desc.type} className={`primary btnIcon${classes}`}>
+          <img className='cartImg' src={CartSvg} alt="shopping cart image"/>
+          Default
+        </button>
+      </div>
+    </>
+  );
+
+}

@@ -8,12 +8,16 @@
 
 .btn-heading{
     margin: 0 0 10px 0;
+    width: 280px;
+    height: 12px;
     font-family: Ubuntu Mono;
     font-size: 12px;
     font-weight: 400;
     color: #333333;
 }
-
+.colrBlack{
+    color: #000000;
+}
 .primary{
     width: 81px;
     height: 36px;
@@ -27,6 +31,11 @@
     font-weight: 500;
     color: #ffffff;
     cursor: pointer;
+}
+.column6{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
 }
 .graybtn{
     color: #3F3F3F;
@@ -59,4 +68,24 @@
 }
 .disabled:is(:hover,:focus){
     background-color: #ffffff;
+}
+.btnIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 105px;
+    height: 36px;
+    background-color: #2962FF;
+}
+.btnIconLeft{
+    flex-direction: row;
+}
+.btnIconRight{
+    flex-direction: row-reverse;
+}
+.cartImg{
+    width: 18px;
+    height: 16px;
+    color:#FFFFFF;
 }

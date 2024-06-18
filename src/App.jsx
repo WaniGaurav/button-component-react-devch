@@ -1,5 +1,6 @@
 import './App.css'
-import ButtonComponent from './assets/ButtonComponent';
+import {ButtonComponent, ButtonComponentIcon} from './assets/ButtonComponent';
+
 
 function App() {
 
@@ -20,10 +21,15 @@ function App() {
           <ButtonComponent heading="<Button disableShadow />" type="submit" class=""/>
         </div>
         <div className="column5">
-          <ButtonComponent heading="<Button disabled />" disabled={true} class="disabled"/>
+          <ButtonComponent heading="<Button disabled />" disabled={true} class="disabled" spanClass="colrBlack"/>
         </div>
-        <div className="column6">
-          Button
+        <div className="column6">  {/*column6*/}
+          <div className="btnOne">
+            <ButtonComponentIcon heading="<Button startIcon=”local_grocery_store” />" class="btnIconLeft" spanClass="colrBlack"/>
+          </div>
+          <div className="btnTwo">
+            <ButtonComponentIcon heading="<Button endIcon=”local_grocery_store” />" class="btnIconRight" spanClass="colrBlack"/>
+          </div>
         </div>
         <div className="column7">
           Button
