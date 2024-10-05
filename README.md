@@ -34,10 +34,10 @@
     </tr>
     <tr>
       <td>
-        <img src = "(https://github.com/user-attachments/assets/1c2edd4e-aedf-4c27-81bd-5170072cf170)">
+        <img src = "/assets/images/button-component-desktop.png">
       </td>
       <td>
-        <img src = "(https://github.com/user-attachments/assets/52a98b12-760a-4242-b7a6-d92674782811)">
+        <img src = "/assets/images/button-component-mobile.png">
       </td>
     </tr>
   </table>
