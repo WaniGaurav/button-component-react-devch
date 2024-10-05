@@ -57,5 +57,5 @@
 
 ## Contact
 
-- Website [The-picture-gallery.com](https://button-component-react-devch-gw.netlify.app/)
+- Website [Button-componets-gw.com](https://button-component-react-devch-gw.netlify.app/)
 - GitHub [@WaniGaurav](https://github.com/WaniGaurav)
