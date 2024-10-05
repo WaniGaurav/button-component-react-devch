@@ -34,10 +34,10 @@
     </tr>
     <tr>
       <td>
-        <img src = "!(/assets/images/button-component-desktop.png)">
+        <img src = "/src/assets/images/button-component-desktop.png">
       </td>
       <td>
-        <img src = "!(/assets/images/button-component-mobile.png)">
+        <img src = "/src/assets/images/button-component-mobile.png">
       </td>
     </tr>
   </table>
