@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.btn-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.btn-width {
+  width: 14rem;
+}
+.btn-heading {
+  margin: 0 0 10px 0;
+  width: 280px;
+  height: 12px;
+  font-family: Ubuntu Mono;
+  font-size: 12px;
+  font-weight: 400;
+  color: #333333;
+}
+.colrBlack {
+  color: #000000;
+}
+.primary {
+  width: 81px;
+  height: 36px;
+  gap: 0px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3d5afe;
+  outline-width: 0;
+  font-family: Noto Sans JP;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+}
+.bg-secondary {
+  width: 12rem;
+  background-color: #2962ff;
+}
+.column6 {
+  display: flex;
+  gap: 7rem;
+}
+.column7 {
+  display: flex;
+}
+.graybtn {
+  color: #3f3f3f;
+  background-color: #e0e0e0;
+}
+.graybtn:is(:hover, :focus) {
+  outline: 0;
+  background-color: #aeaeae;
+}
+.outline {
+  color: #3d5afe;
+  background-color: #ffffff;
+  border: 1px solid #3d5afe;
+}
+.outline:is(:hover, :focus) {
+  outline: 0;
+  background-color: #2962ff1a;
+}
+.text {
+  color: #3d5afe;
+  background-color: #ffffff;
+}
+.text:is(:hover, :focus) {
+  outline: 0;
+  background-color: #2962ff1a;
+}
+.disabled {
+  color: #9e9e9e;
+  background-color: #e0e0e0;
+}
+.disabled:is(:hover, :focus) {
+  outline: 0;
+  background-color: #fff;
+}
+.btnIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 105px;
+  height: 36px;
+}
+.btnIconLeft {
+  flex-direction: row;
+}
+.btnIconRight {
+  flex-direction: row-reverse;
+}
+.cartImg {
+  width: 18px;
+  height: 16px;
+  color: #ffffff;
+}
+.btnsm {
+  width: 73px;
+  height: 32px;
+}
+.btnmd {
+  width: 81px;
+  height: 36px;
+}
+.btnlg {
+  width: 93px;
+  height: 42px;
+}
+.btn-primary {
+  background-color: #2962ff;
+}
+.btn-primary:is(:hover, :focus) {
+  outline: 0;
+  background-color: #0039cb;
+}
+.btn-secondary {
+  background-color: #455a64;
+  width: 104px;
+  height: 36px;
+}
+.btn-secondary:is(:hover, :focus) {
+  outline: 0;
+  background-color: #1c313a;
+}
+.btn-danger {
+  background-color: #d32f2f;
+}
+.btn-danger:is(:hover, :focus) {
+  outline: 0;
+  background-color: #9a0007;
+}
+.copy-heading {
+  padding: 10px;
+  width: 15rem;
+  background-color: #2f172f;
+  color: #2be2ab;
+  border-radius: 14px;
+}
+
+/* Mobile view */
+
+
+@media (max-width: 950px) {
+  .column6{
+    gap: 2rem;
+    margin: 0 0 0 3.5rem;
+  }
+  .column7{
+    gap: 2rem;
+  }
+  .column6,
+  .column7{
+    display: flex;
+    flex-direction: column;
+  }
+}
